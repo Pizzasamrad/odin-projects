@@ -3,3 +3,47 @@ color: red;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bolder;
 }
+
+.header{
+background-color: aquamarine;
+font-style: italic;
+font-size: large;
+color: blue;
+
+
+}
+ul.b{
+color:rgb(154, 177, 164) ;
+
+
+}
+.bum{
+background-color: rgb(92, 64, 51);
+
+
+}
+
+.top{
+color: rgb(197, 197, 188);
+font-weight: 700;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+
+
+}
+
+.color{
+color: rgba(255, 255, 255, 0.274);
+
+}
+
+.x{
+color: rgb(233, 233, 230);
+
+
+}
+.main-text{
+color: rgb(216, 209, 223);
+
+
+}
