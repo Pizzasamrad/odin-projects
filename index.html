@@ -33,15 +33,35 @@ color: brown;
 font-size: 82px;
 
 }
+.main-images {
+    margin-top: 20px; /* Adjust top margin as needed */
+    text-align: center;
+}
+
+.main-images a {
+    display: inline-block; /* Ensures links behave like blocks next to each other */
+    margin: 0 10px; /* Adds equal margins around each image */
+}
+
+.main-images img {
+    width: 200px; /* Adjust width of each image */
+    height: auto; /* Maintain aspect ratio */
+}
     </style>
 </head>
 <body>
     <h1 class="first">Odin Recipes</h1>
- <ul>
-    <li><a href="00-odin-recipes/recipes/pizza.html">pizza</a></li>
-    <li><a href="00-odin-recipes/recipes/paneer.html">paneer</a></li>
-    <li><a href="00-odin-recipes/recipes/buldak.html">buldak</a></li>
-</ul>
+    <div class="main-images">
+        <a href="00-odin-recipes/recipes/pizza.html">
+            <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ecaeb2cc-a950-4645-a648-9137305b3287/Derivates/df977b90-193d-49d4-a59d-8dd922bcbf65.jpg" alt="Pizza image">
+        </a>
+        <a href="00-odin-recipes/recipes/paneer.html">
+            <img src="https://images.squarespace-cdn.com/content/v1/5cef7b136434550001a53d10/1632310008744-TUO2GTTWCLX19KMO7D9G/honey+chilli+paneer-8+6.jpg" alt="Paneer image">
+        </a>
+        <a href="00-odin-recipes/recipes/buldak.html">
+            <img src="https://simshomekitchen.com/wp-content/uploads/2024/04/buldak-noodle.jpg" alt="Buldak image">
+        </a>
+    </div>
 <div class="image-container">
     <img src="https://st3.depositphotos.com/13324256/17303/i/450/depositphotos_173034766-stock-photo-woman-writing-down-recipe.jpg" alt="Recipe Image">
 </div>

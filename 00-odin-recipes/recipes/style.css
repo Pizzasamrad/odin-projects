@@ -1,14 +1,14 @@
 .text{
-color: red;
+color: brown;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bolder;
 }
 
 .header{
-background-color: aquamarine;
+
 font-style: italic;
 font-size: large;
-color: blue;
+color: brown;
 
 
 }
@@ -46,4 +46,14 @@ color: brown;
 color: brown;
 
 
+}
+.pizza-color{
+
+background-color: beige;
+
+}
+* {
+
+    color: brown;
+    background-color: beige;
 }
